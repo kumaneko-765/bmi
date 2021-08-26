@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>BMIと適正体重</title>
+</head>
+<body>
+    <div class="input">
+        <h1>BMIと適正体重</h1>
+        <h2>～入力してください～</h2>
+        <p>身長(cm)
+        <input type="number" id="height" />
+        <p>体重(kg)
+        <input type="number" id="weight" />
+
+    </div>
+    <div class="result">
+        <button type="button" id="excute" onclick="func()">計算する！</button>
+        
+        <p>BMI</p>
+        <input id="rebmi" type="text" size="10" >
+        <p>適正体重</p>
+        <input id="reaw" type="text" size="10">
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
